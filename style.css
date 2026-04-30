@@ -244,8 +244,15 @@ font-size: .8rem;
 	justify-content: center;
 	align-items: center;
 	background-color: #fffdf7;
+ margin-bottom:10px ;
+  border-bottom: 1px solid var(--color-border);
 }
 
+
+.Trust-Badges {
+background:#FAF5E8;
+   
+}
 .badge-item {
 	padding: 0.5rem 1rem;
 	border-radius: 12px;
@@ -259,7 +266,6 @@ font-size: .8rem;
 	border: 1px solid rgba(207, 193, 154, 0.4);
     display: inline-flex;
     align-items: center;
-    gap: .25rem;
 }
 
 .badge-item:hover {
@@ -912,6 +918,7 @@ border-radius: 8px;
 display: flex;
 flex-wrap: wrap;
 }
+
 
 .whare-btns{
 
