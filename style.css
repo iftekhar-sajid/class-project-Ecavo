@@ -53,9 +53,6 @@ display: flex;
 align-items: center;
 gap: 20px;
 padding: 0.75rem 12px 1.5rem;
-12px
- 1.5rem;
-
 }
 .pcmenu-items{
 text-decoration: none;
@@ -87,7 +84,9 @@ background: transparent;
  position: relative;
  border: 1.5px solid #CFC19A; ;
 }
-.langs active-lang
+.langs active-lang{
+
+}
 
 /* hero section */
 .hero{
@@ -914,6 +913,7 @@ text-decoration: none;
 	padding: 2.5rem 0px;
 	display: flex;
 	justify-content: center;
+	margin: 2rem;
 
 }
 
@@ -933,8 +933,6 @@ text-decoration: none;
 }
 
 .Featured-cont-tx{
-
-
 color: #9A7A2E;;
 position: relative;
     display: block;
@@ -942,7 +940,7 @@ position: relative;
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 0.12em;
-	margin-bottom: 0.75rem;;
+	margin: 0.75rem;
 	font-family: 'Plus Jakarta Sans', 'Plus Jakarta Sans Fallback', 'Helvetica Neue', sans-serif;
 }
 
@@ -993,7 +991,7 @@ gap: 10px;
 
 width: 260px;
 height: 300px;
-padding: ;
+padding:8px 14px;
 
 }
 
@@ -1140,104 +1138,332 @@ align-items: center;
 	
 .Order-Nandi-section{
 	 background-color: #FFFDF7;
-	padding: 2.5rem 0px;
-	display: flex;
+		display: flex;
 	justify-content: center;
-	color: white;
+	align-items: center;
+	
+		
 
 }
 
 
 .Order-body{
 background-color: #2C1810;
-
+ 
+padding: 2rem;
+border-radius: 25px;
+margin: 1rem 3rem;
+position: relative;
+    overflow: hidden;
+/* display: flex; */
+/* justify-content: space-evenly; */
 }
-
-
 .Order-cont{
-
-max-width: 50%;
-
+max-width: 55%;
     flex-direction: column;
    align-items: center;
    margin-bottom: 2rem;
 }
 
 .Order-tx{
-
-
+color: #C8A35F;
+position: relative;
+    display: block;
+    font-size: 0.6rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+	margin-bottom: 0.75rem;;
+	font-family: 'Plus Jakarta Sans', 'Plus Jakarta Sans Fallback', 'Helvetica Neue', sans-serif;
 }
 
 
 .Order-online{
-
-
+color:#FFFDF7 ;
+position: relative;
+    display: block;
+    font-size: 1.6rem;
+    font-weight: 600;
+	margin-bottom: 0.75rem;;
+	font-family:'Playfair Display', Georgia, serif;
 }
 
 
 .Order-para{
-
+color: #FDF7FF;
+font-family: 'Plus Jakarta Sans', 'Plus Jakarta Sans Fallback', 'Helvetica Neue', sans-serif;;
+font-size: .8rem;
 
 }
 
 
 .Order-card-holder{
+max-width: 60%;
 display: flex;
-/* flex-direction: row; */
-/* justify-content: center; */
-/* justify-items: center; */
 align-items: center;
+justify-content: space-evenly;
 
 }
 
 
 .Order-card{
 background-color: #514037;
-border-radius: 25px;
+border-radius: 15px;
 display: flex;
-justify-content: center;
+align-items: center;
+padding:.01rem 1rem ;
+justify-content: space-evenly;
 
 
+
+}
 .Order-card-cont{
+	color: white;
+	display: flex;
+flex-direction: column;
+padding: 1rem .2rem;
 
-
-	
+/* flex-wrap: wrap; */
 }
 
 
 
-}
 
 
 .Order-card-ion{
-
-
+padding: .1rem;
+height: 40px;
+width:40px ;
+display: flex;
+    align-items: center;
+    justify-content: center;
+border-radius: 7px;
 }
 
 
 .Order-card-mart{
-
+font-size: 1rem;
+font-weight: 600;
 
 }
 
 
 .Order-card-time{
-
+font-size: .8rem;
 
 }
 
 
 .Order-card-a-div{
-
-
+padding-top: 1rem;
+display: flex;
+align-items: center;
 }
 
 
 .Order-card-a{
+text-decoration: none;
+color: white;
+border: 1px solid white;
+border-radius: 10px;
+padding: .5rem 1rem;
+}
+
+      /* <!-- As Seen In --> */
+
+.As-Seen-section{
+background-color:#FFFDF7;
+margin: 1rem ;
+	
+}
+
+
+.As-Seen-body{
+display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+
+
+.As-Seen-titel-div{
+padding: 1.5rem ;
+
+}
+
+
+.As-Seen-titel{
+color: #D5CBB2;
+font-weight: 600;
+
+}
+
+
+.As-Seen-card-holdder{
+display: flex;
+justify-content: space-evenly;
+/* align-content: center; */
+/* justify-items: center; */
+
+}
+
+
+.As-Seen-card{
+background-color: #FAF5E8;
+color:#6B5744;
+font-size: 0.8125rem;
+    line-height: 1.5;
+    text-align: center;
+    font-style: italic;
+	text-decoration: none;
+	border: 1px solid rgba(207, 193, 154, 0.3);
+	border-radius: 10px;
+	flex-wrap: wrap;
+	padding: 1rem 3rem;
+	margin: 1.5rem 1rem;
+}
+
+
+.As-Seen-card-img-holder{
 
 
 }
 
+
+.As-Seen-card-img{
+height:50px;
+width: 120px;
+padding: .8rem 0;
+
+}
+
+
+.As-Seen-card-para-div{
+
+
+}
+
+
+.As-Seen-card-para{
+
+
+}
+
+               /* <!-- Viral on Instagram --> */
+
+
+.Viral-on-video-a{
+
+
+}
+
+
+.Viral-on-video{
+
+width: 300px;
+height: 350px;
+padding:8px 14px;
+}
+
+Viral-on-a{
+
+
+}
+
+.Viral-on-a-div{
+padding-top: 1rem;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+
+.Viral-on-a{
+text-decoration: none;
+color: #7B1F2E;
+
+}
+
+              /* <!-- Questions --> */
+
+
+.Questions{
+ 
+	background-color: #FAF5E8;
+	display: flex;
+	justify-content: center;
+align-items: center;
+}
+
+
+.Questions-body{
+
+	
+flex-direction: column;
+max-width: 720px;
+}
+
+
+.Questions-list{
+/* display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: ; */
+}
+
+
+.Questions-item{
+	display: flex;
+	/* flex-direction: reverse; */
+padding: 1.2rem 2rem;
+padding-right: 10rem;
+	margin: 2rem;
+border: 1px solid;
+border-radius: .8rem;
+	display: flex;
+	flex-direction: column;
+row-gap: .8rem;
+
+}
+
+
+.Questions-q{
+
+	
+}
+
+
+.Questions-a{
+
+	
+}
+                /* footer */
+footer{
+	background-color: #2C1810;
+	display: flex;
+	justify-content:space-between;
+	padding: 3rem 5rem;
+}
+
+.footer-body{
+display: flex;
+flex-direction: column;
+
+
+	
+
+}
+.footer-A{
+	display: flex;
+	justify-content:space-evenly;
+	justify-items: center;
+	align-items: center;
+}
+.footer-Aa{
+display: flex;
+flex-direction: column;
+	
+}
 
 
 
