@@ -981,11 +981,24 @@ border-radius: 25px;
 padding: 1.25rem 3rem;
 display: flex;
 flex-direction: column;
+justify-items: center;
 align-items: center;
 gap: 10px;
+cursor: pointer;
+position: relative;
 
 
 }
+.Featured-card-href{
+justify-items: center;
+align-items: center;
+display: flex;
+flex-direction: column;
+gap: 10px;
+text-decoration: none;
+color: black;
+}
+
 
 .Featured-card-img{
 
