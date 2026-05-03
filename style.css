@@ -1482,6 +1482,53 @@ flex-direction: column;
 
 
 
+             /* produtcs css */
+.pro-body{
+	background-color: #FAF5E8;
+}
+
+.pro-nav{
+	display: flex;
+	/* justify-content: start; */
+	align-self: flex-start;
+	padding: 2rem 1rem;
+	background-color: #FAF5E8;
+}
+.pro-nav-ul{
+	display: flex;
+	gap: 6px;
+	list-style-type: none;
+
+}
+.pro-nav-li{
+
+}
+
+.pro-hero{
+display: flex;
+flex-direction: column;
+/* justify-content: center;
+align-items: center; */
+
+
+}
+
+.pro-hero-body{
+	display: grid;
+	/* padding: 2erm 5rem; */
+	grid-template-columns: 1fr 1fr;
+	    gap: 3rem;
+    align-items: start;
+
+}
+.pro-hero-img-holder{
+ 
+}
+.pro-hero-img{
+	height: 480px;
+	width: 480px;
+}
+
 
 
 
