@@ -1594,23 +1594,44 @@ align-items: center; */
 }
 
 .pro-hero-cap-holder{
-	
+	padding:1rem 0;
+	/* gap: 1rem; */
+
+
+
 }
 
 .pro-hero-cap-h-big{
-
+	display: flex;
+align-items:center;
+flex-wrap: wrap;
+padding:1rem  ;
 }
 
 .pro-hero-cap-big{
-
+margin: .1rem .5rem;
+display: inline-block;
+flex-wrap: wrap;
+padding:.6rem .5rem;
+border-radius: 8px;
+background-color: #F5EDD8;
+border: #CFC19A 1px solid;
 }
 
 .pro-hero-cap-h-sml{
-
+	display: flex;
+padding:1rem ;
+align-items:center;
+flex-wrap: wrap;
 }
 
 .pro-hero-cap-sml{
+padding: .3rem rem;
+margin:0 .5rem;
 
+border-radius: 8px;
+background-color: #F5EDD8;
+border: #CFC19A 1px solid;
 }
 
 /* <!-- Available Sizes --> */
@@ -1630,17 +1651,112 @@ align-items: center; */
 /* button */
 
 .pro-hero-btn-holder{
-
+padding: 1rem 0;
 	
 }
 .pro-hero-btn{
+margin: .1rem .5rem;
+display: inline-block;
+flex-wrap: wrap;
+padding:.6rem .5rem;
+border-radius: 8px;
+border: #CFC19A 1px solid;
+color: white;
+
 
 }
 
+.Available{
+
+display: flex;
+justify-content: space-between;
+max-width: 200px;
+padding: .5rem 0;
+
+
+}
+
+.hero-Storage{
+	border:1px solid #C49F5A ;
+	background-color: #F5EDD8;
+	margin: .1rem .5rem;
+flex-wrap: wrap;
+padding:1rem;
+border-radius: 8px;
+}
+
+.pro-table{
+	margin: 2rem 0;
+	display: flex;
+	flex-direction: column;
+	border:1px solid #C49F5A ;
+	border: 1px solid  ;
+}
+
+.pro-table-body{
+
+
+}
+table{
+
+display: ;
+
+}
+
+.tbl-flex1{
+	display: flex;
+	justify-content: space-evenly;
+}
+
+                                    /* .See-What-Families */
+.See-What-Families{
+	background-color:#1A1207 ;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #69532E;
+	padding: 5rem;
+}
+
+.See-What-Families-body{
+
+}
+
+.See-What-Familie-cont{
+	display: flex;
+	justify-content: center;
+	margin: 5rem;
+}
+
+.See-What-Familie-img-holder{
+
+	display: flex;
+	justify-content: space-between;
+}
+
+.See-What-Families-img-a{
+
+
+}
+.See-What-Families-img{
 
 
 
+}
+.See-What-Families{
 
+
+}
+
+.See-What-Families{
+
+
+}
+
+.See-What-Families{
+
+
+}
 
 
 
