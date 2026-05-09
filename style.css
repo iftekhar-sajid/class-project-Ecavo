@@ -1537,14 +1537,15 @@ font-size: 0.8125rem;
 #6B5744;
 }
 
-.pro-box{
 
+.pro-main{
+max-width: 1200px;
 
 }
 
-
 .pro-body{
 	background-color: #FAF5E8;
+	max-width: 1200px;
 }
 
 .pro-nav{
@@ -1581,8 +1582,17 @@ align-items: center; */
     align-items: start;
 
 }
+
+.pro-box{
+
+
+}
 .pro-hero-img-holder{
- 
+ background-color: #FFFFFF;
+display: block;
+justify-self: end;
+
+
 }
 .pro-hero-img{
 	height: 480px;
@@ -1723,22 +1733,26 @@ display: ;
 }
 
 .See-What-Familie-cont{
-	display: flex;
-	justify-content: center;
-	margin: 5rem;
+
 }
 
 .See-What-Familie-img-holder{
 
-	display: flex;
-	justify-content: space-between;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+
 }
 
 .See-What-Families-img-a{
-
+	
 
 }
 .See-What-Families-img{
+width: 100%;
+border-radius: 16px;
+display: block;
+aspect-ratio: 1/4;
+object-fit: cover;
 
 
 
@@ -1757,6 +1771,57 @@ display: ;
 
 
 }
+
+.Pairs-Well{
+background-color: #F5EDD8;
+padding: 2rem;
+}
+.Pairs-Well-cont{
+	display: flex;
+	flex-direction: column;
+gap: .5rem;
+padding-bottom:2rem ;
+
+}
+.Pairs-Well-card-holder{
+	display: flex;
+	gap:1rem;
+
+}
+.Pairs-Well-card{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+ padding:.1rem 2rem;
+background-color: #FAF5E8;
+border: 1px solid #C8A35F;
+border-radius: 15px;
+
+}
+.Pairs-Well-img-holder{
+    padding: .5rem;
+	width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.Pairs-Well-img{
+width: 100%;
+height: auto;
+object-fit:contain;
+aspect-ratio:1/1 ;
+
+}
+
+.pairs-card-img-tx{
+	display: flex;
+	flex-direction: column;
+	gap: .5rem;
+
+}
+
+
+
 
 
 
