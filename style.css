@@ -11,6 +11,10 @@ box-sizing: border-box;
  
 
 /* nav section */
+body{
+
+	
+}
 .nav2nd{
 display: flex;
 justify-content: flex-end;
@@ -1539,13 +1543,14 @@ font-size: 0.8125rem;
 
 
 .pro-main{
-max-width: 1200px;
 
+background-color: #FAF5E8;
+	max-width: 1200px;
+	justify-self: center;
 }
 
 .pro-body{
 	background-color: #FAF5E8;
-	max-width: 1200px;
 }
 
 .pro-nav{
@@ -1744,15 +1749,18 @@ display: ;
 }
 
 .See-What-Families-img-a{
-	
+	display: flex;
+	justify-content: center;
+
 
 }
 .See-What-Families-img{
 width: 100%;
 border-radius: 16px;
 display: block;
-aspect-ratio: 1/4;
+/* aspect-ratio: 1/1; */
 object-fit: cover;
+overflow: hidden;
 
 
 
@@ -1820,6 +1828,52 @@ aspect-ratio:1/1 ;
 
 }
 
+.Journey-{
+
+	padding:5rem 0;
+}
+
+.Journey-body{
+display: flex;
+justify-content: center;
+align-items: center;
+justify-items: center;
+flex-direction: column;
+text-align: center;
+
+
+}
+
+.Journey-card-holdr{
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 2rem 0;
+
+}
+
+.Journey-card-holdr a{
+
+
+}
+.Journey-img{
+hborder-radius: 25px;
+
+}
+
+.Journey-card{
+
+
+}
+
+.Journey-card div{
+background-color: #F5E6C8;
+border-radius: 100%;
+/* display: block; */
+/* justify-content: center; */
+
+
+}
 
 
 
